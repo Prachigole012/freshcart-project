@@ -1,0 +1,433 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+ul{
+    padding: 0;
+    list-style: none   ;
+}
+header{
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+}
+.left{
+    width: 300px;
+    float: left;
+}
+.right{
+    width: 300px;
+    
+    float: right;
+    text-align: right;
+}
+.flag{
+    width: 16px;
+}
+.lang-btn{
+    background-color: transparent;
+    border: none;
+}
+.top-color{
+    background-color: #f0f3f2;
+}
+.clear{
+    clear: both;
+}
+
+.logo{
+    width: 250px;
+    height: 60px;
+    float: left;
+    padding: 10px;
+}
+.search{
+    width: 400px;
+    height: 60px;
+    /* background-color: pink; */
+    float: left;
+}
+.location{
+    width: 150px;
+    height: 60px;
+    /* background-color: blue; */
+    float: left;
+    padding: 10px;
+}
+.icons{
+    width: 180px;
+    height: 60px;
+    /* background-color:blueviolet ; */
+    float: right;
+    padding: 10px;
+    padding-left: 60px;
+}
+.logo img{
+    width: 90%;
+}
+.search-area{
+    width: 380px;
+    /* background-color: green; */
+    margin: 0 auto;
+    padding:  10px;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.search-area input{
+    width: 320px;
+    background-color: transparent;
+    border: none;
+}
+.search-area button{
+    background-color: transparent;
+    border: none;
+}
+.location button{
+    padding: 8px 12px;
+    background-color: transparent;
+    border-radius: 10px;
+     font-size: 18px;
+     color: grey;
+     transition: all 0.5s;
+}
+.location button:hover{
+    background-color: #c9c5c5;
+    cursor: pointer;
+}
+.icons li{
+    display: inline-block;
+    margin-right: 8px;
+    font-size: 25px;
+    color: grey;
+}
+.all-dept {
+    width: 200px;
+    height: 60px;
+    /* background-color: yellow; */
+    float: left;
+    /* padding: 15px 18px; */
+    padding: 10px;
+}
+.all-dept button{
+    background-color: green;
+    padding:10px 20px ;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+.menus{
+    width: 900px;
+    height: 60px;
+    /* background-color: pink; */
+      float: left;
+}
+.menus ul li{
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    
+}
+.menus ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+.menus ul li:hover a{
+    color: green;
+}
+.filter-option{
+    padding-top: 5px;
+}
+.sec-heading{
+    padding: 25px;
+    background-color: rgb(232, 236, 236);
+    border-radius: 10px ;
+    margin-top: 10px;
+}
+.number-product{
+    float: left;
+}
+.sort-option{
+    float: right;
+}
+.show-option{
+    float: right;
+    margin-right: 10px;
+}
+.view-option ul li{
+    float: right;
+    padding: 8px;
+}
+.view-option ul li.active{
+    color: green;
+}
+.show-option button{
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px;
+}
+.sort-option button{
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px;
+
+}
+.product-card{
+    width: 280px;
+    /* background-color: aqua; */
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius: 8px;
+    padding: 8px;
+    transition: all 0.5s;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    position: relative;
+}
+.product-card:hover{
+    border-color: green;
+    box-shadow: 0 5px 15px rgba(0, 128, 0, 0.5);
+    transform: translateY(-3px);
+}
+
+.mb-8{
+    margin-bottom: 8px;
+}
+.product-card .img-frame{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    background-color:blue ;
+}
+.product-card .img-frame img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sale-badge{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background-color: red;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 5px;
+    font-size: 14px;
+    z-index: 2;
+}
+
+.green-badge{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background-color: green;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 5px;
+    font-size: 14px;
+    z-index: 2;
+}
+
+.cta .price{
+    float: left;
+}
+.cta .add-cart{
+    float: right;
+}
+.add-cart button{
+    background-color: green;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+}
+.header2{
+    padding: 10px;
+  
+}
+.header2 a{
+    color: green;
+}
+
+.cart-heading h1{
+    margin-bottom: 8px;
+}
+.left-box{
+    width: 800px;
+    height: 500px;
+    /* background-color: aqua; */
+    float: left;
+    padding: 0px 8px;
+}
+.right-box{
+    width: 400px;
+    height:500px ;
+    /* background-color: cadetblue; */
+    float: right;
+    border: 1px solid grey;
+    border-radius: 8px;
+    padding: 15px;
+}
+.alert-box p{
+    background-color: #f1a8a8;
+    padding: 8px;
+    border: 1px solid red;
+    border-radius: 8px;
+}
+table .product-img{
+    width: 90px;
+    /* background-color: pink; */
+    height: 100px;
+}
+table .product-info{
+    width: 400px ;
+    height: 100px;
+    /* background-color: aquamarine; */
+    padding: 5px;
+}
+table .product-quantity{
+    width: 200px ;
+    height: 100px;
+    /* background-color: aqua; */
+    text-align: center;
+}
+table .product-price{
+    width: 90px;
+    /* background-color: red; */
+    height: 100px;
+}
+.product-img .img-frame{
+    width: 100%;
+    height: 100%;
+    background-color: #f1a8a8;
+    overflow: hidden;
+}
+table .product-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.product-info button{
+    background-color: transparent;
+    border: none;
+}
+.product-quantity .counter{
+    width: auto;
+    background-color: whitesmoke;
+    border: 1px solid grey;
+    display: inline-block;
+    border-radius: 5px;
+}
+.counter button{
+    background-color: transparent;
+    border: none;
+}
+.count{
+    display: inline-block;
+    padding: 5px;
+    border-left: 1px solid grey;
+     border-right: 1px solid grey;
+}
+table{
+    border-collapse: collapse;
+}
+table tr{
+    border-top: 1px solid grey;
+}
+.conti-shop{
+    float: left;
+    padding: 10px;
+}
+.conti-shop button{
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+.update-cart{
+    float: right;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+.update-cart button{
+    padding: 8px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+.bill-calc{
+    border: 1px solid grey;
+    border-radius: 8px;
+}
+.bill-calc li{
+    padding: 8px ;
+}
+.bill-calc .border-y{
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+.item-info{
+    width: 300px;
+    display: inline-block;
+}
+.item-price{
+    display: inline-block;
+}
+.checkout-button{
+    width: 100%;
+    display: block;
+    text-align: left;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: 1px solid green;
+    border-radius: 8px;
+}
+.go-to{
+    width: 280px;
+    display: inline-block;
+    font-size: 20px;
+}
+.checkout{
+    display: inline-block;
+    font-size: 20px;
+}
+.mt-25{
+    margin-top: 25px;
+}
+.gift-form input{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid grey;
+    border-radius: 8px;
+}
+.gift-form .redeem-button{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+.margin-p{
+    margin-top: 10px;
+}
